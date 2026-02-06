@@ -25,7 +25,7 @@ function iniciarSistema() {
             entradaDeDados.question('Digite o valor do Produto: ', function (valor) {
                 let valorProduto = parseFloat(valor.replace(',', '.'))
 
-                entradaDeDados.question('Digite a taxa de juro do produto: ', function (taxa) {
+                entradaDeDados.question('Digite a taxa de juros do produto: ', function (taxa) {
                     let taxaJuros = parseFloat(taxa.replace(',', '.'))
 
                     entradaDeDados.question('Em quantas vezes deseja pagar? \n(Digite 1 para MESES ou 2 para ANOS): ', function (selecao) {
